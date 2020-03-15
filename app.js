@@ -26,6 +26,7 @@ if(dice !== 1){
     document.querySelector('#current-0').innerHTML = 0;
 document.querySelector('#current-1').innerHTML = 0;
 
+
 document.querySelector('.player-0-panel').classList.toggle('active');
 document.querySelector('.player-1-panel').classList.toggle('active')
 
