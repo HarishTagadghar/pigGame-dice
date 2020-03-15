@@ -17,6 +17,7 @@ document.querySelector('.dice').style.display = 'block';
 let dice = Math.floor((Math.random() * 6) + 1) ;
 document.querySelector('.dice').src = `dice-${dice}.png`
 
+
 if(dice !== 1){
     roundScore += dice;
     document.querySelector('#current-'+ active).innerHTML = roundScore;
