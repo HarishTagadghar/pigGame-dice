@@ -22,7 +22,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
         score[active] += roundScore;
         document.querySelector('#score-' + active).innerHTML = score[active]
 
-        if (score[active] >= 10) {
+        if (score[active] >= 100) {
 
             document.querySelector('#name-' + active).textContent = 'WINNER!';
             document.querySelector('.dice').style.display = 'none';
